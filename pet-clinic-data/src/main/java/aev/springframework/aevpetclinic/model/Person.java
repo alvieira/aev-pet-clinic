@@ -1,6 +1,6 @@
 package aev.springframework.aevpetclinic.model;
 
-public class Person {
+public class Person extends BaseEntity {
 
 	private String firstName;
 
