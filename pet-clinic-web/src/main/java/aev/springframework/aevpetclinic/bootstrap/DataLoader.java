@@ -7,19 +7,17 @@ import aev.springframework.aevpetclinic.model.Owner;
 import aev.springframework.aevpetclinic.model.Vet;
 import aev.springframework.aevpetclinic.services.OwnerService;
 import aev.springframework.aevpetclinic.services.VetService;
-import aev.springframework.aevpetclinic.services.map.OwnerServiceMap;
-import aev.springframework.aevpetclinic.services.map.VetServiceMap;
 
 @Component
 public class DataLoader implements CommandLineRunner {
 
 	private final OwnerService ownerService;
 	private final VetService vetService;
-
-	public DataLoader() {
-		ownerService = new OwnerServiceMap();
-		vetService = new VetServiceMap();
-	}
+	
+	public DataLoader(OwnerService ownerService, VetService vetService) {		
+		this.ownerService = ownerService;
+		this.vetService = vetService;
+	}	
 
 	@Override
 	public void run(String... args) throws Exception {
