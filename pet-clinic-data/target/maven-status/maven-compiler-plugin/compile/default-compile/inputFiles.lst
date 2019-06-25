@@ -1,5 +1,14 @@
 /home/lenovo/workspaces/Udemy/SpringFramework5BeginToGuru/aev-pet-clinic/pet-clinic-data/src/main/java/aev/springframework/aevpetclinic/model/Pet.java
-/home/lenovo/workspaces/Udemy/SpringFramework5BeginToGuru/aev-pet-clinic/pet-clinic-data/src/main/java/aev/springframework/aevpetclinic/model/Owner.java
-/home/lenovo/workspaces/Udemy/SpringFramework5BeginToGuru/aev-pet-clinic/pet-clinic-data/src/main/java/aev/springframework/aevpetclinic/model/Person.java
+/home/lenovo/workspaces/Udemy/SpringFramework5BeginToGuru/aev-pet-clinic/pet-clinic-data/src/main/java/aev/springframework/aevpetclinic/services/map/VetServiceMap.java
+/home/lenovo/workspaces/Udemy/SpringFramework5BeginToGuru/aev-pet-clinic/pet-clinic-data/src/main/java/aev/springframework/aevpetclinic/services/OwnerService.java
+/home/lenovo/workspaces/Udemy/SpringFramework5BeginToGuru/aev-pet-clinic/pet-clinic-data/src/main/java/aev/springframework/aevpetclinic/services/map/AbstractMapService.java
+/home/lenovo/workspaces/Udemy/SpringFramework5BeginToGuru/aev-pet-clinic/pet-clinic-data/src/main/java/aev/springframework/aevpetclinic/services/map/OwnerServiceMap.java
+/home/lenovo/workspaces/Udemy/SpringFramework5BeginToGuru/aev-pet-clinic/pet-clinic-data/src/main/java/aev/springframework/aevpetclinic/model/BaseEntity.java
 /home/lenovo/workspaces/Udemy/SpringFramework5BeginToGuru/aev-pet-clinic/pet-clinic-data/src/main/java/aev/springframework/aevpetclinic/model/PetType.java
+/home/lenovo/workspaces/Udemy/SpringFramework5BeginToGuru/aev-pet-clinic/pet-clinic-data/src/main/java/aev/springframework/aevpetclinic/services/VetService.java
 /home/lenovo/workspaces/Udemy/SpringFramework5BeginToGuru/aev-pet-clinic/pet-clinic-data/src/main/java/aev/springframework/aevpetclinic/model/Vet.java
+/home/lenovo/workspaces/Udemy/SpringFramework5BeginToGuru/aev-pet-clinic/pet-clinic-data/src/main/java/aev/springframework/aevpetclinic/services/CrudService.java
+/home/lenovo/workspaces/Udemy/SpringFramework5BeginToGuru/aev-pet-clinic/pet-clinic-data/src/main/java/aev/springframework/aevpetclinic/model/Owner.java
+/home/lenovo/workspaces/Udemy/SpringFramework5BeginToGuru/aev-pet-clinic/pet-clinic-data/src/main/java/aev/springframework/aevpetclinic/services/PetService.java
+/home/lenovo/workspaces/Udemy/SpringFramework5BeginToGuru/aev-pet-clinic/pet-clinic-data/src/main/java/aev/springframework/aevpetclinic/model/Person.java
+/home/lenovo/workspaces/Udemy/SpringFramework5BeginToGuru/aev-pet-clinic/pet-clinic-data/src/main/java/aev/springframework/aevpetclinic/services/map/PetServiceMap.java

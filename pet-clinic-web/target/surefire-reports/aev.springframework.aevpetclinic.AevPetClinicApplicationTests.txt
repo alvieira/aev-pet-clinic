@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: aev.springframework.aevpetclinic.AevPetClinicApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.455 s - in aev.springframework.aevpetclinic.AevPetClinicApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 14.173 s - in aev.springframework.aevpetclinic.AevPetClinicApplicationTests

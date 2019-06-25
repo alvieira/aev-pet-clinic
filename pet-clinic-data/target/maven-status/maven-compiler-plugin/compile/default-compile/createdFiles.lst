@@ -1,5 +1,14 @@
+aev/springframework/aevpetclinic/services/VetService.class
+aev/springframework/aevpetclinic/services/map/AbstractMapService.class
 aev/springframework/aevpetclinic/model/Pet.class
-aev/springframework/aevpetclinic/model/Owner.class
 aev/springframework/aevpetclinic/model/PetType.class
 aev/springframework/aevpetclinic/model/Vet.class
 aev/springframework/aevpetclinic/model/Person.class
+aev/springframework/aevpetclinic/services/map/PetServiceMap.class
+aev/springframework/aevpetclinic/services/map/OwnerServiceMap.class
+aev/springframework/aevpetclinic/services/PetService.class
+aev/springframework/aevpetclinic/services/OwnerService.class
+aev/springframework/aevpetclinic/services/map/VetServiceMap.class
+aev/springframework/aevpetclinic/model/BaseEntity.class
+aev/springframework/aevpetclinic/model/Owner.class
+aev/springframework/aevpetclinic/services/CrudService.class
