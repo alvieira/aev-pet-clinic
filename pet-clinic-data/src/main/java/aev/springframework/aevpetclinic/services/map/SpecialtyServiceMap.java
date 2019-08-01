@@ -5,10 +5,10 @@ import java.util.Set;
 import org.springframework.stereotype.Service;
 
 import aev.springframework.aevpetclinic.model.Specialty;
-import aev.springframework.aevpetclinic.services.SpecialtiesService;
+import aev.springframework.aevpetclinic.services.SpecialtyService;
 
 @Service
-public class SpecialtyServiceMap extends AbstractMapService<Specialty, Long> implements SpecialtiesService {
+public class SpecialtyServiceMap extends AbstractMapService<Specialty, Long> implements SpecialtyService {
 
 	@Override
 	public Specialty save(Specialty object) {
