@@ -8,7 +8,7 @@ import aev.springframework.aevpetclinic.model.Specialty;
 import aev.springframework.aevpetclinic.services.SpecialtyService;
 
 @Service
-public class SpecialtyServiceMap extends AbstractMapService<Specialty, Long> implements SpecialtyService {
+public class SpecialtyMapService extends AbstractMapService<Specialty, Long> implements SpecialtyService {
 
 	@Override
 	public Specialty save(Specialty object) {
