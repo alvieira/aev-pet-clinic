@@ -8,7 +8,6 @@ import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 
 import aev.springframework.aevpetclinic.model.PetType;
-import aev.springframework.aevpetclinic.model.Vet;
 import aev.springframework.aevpetclinic.repositories.PetTypeRepository;
 import aev.springframework.aevpetclinic.services.PetTypeService;
 
