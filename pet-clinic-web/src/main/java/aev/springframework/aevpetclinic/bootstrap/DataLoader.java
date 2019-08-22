@@ -10,10 +10,12 @@ import aev.springframework.aevpetclinic.model.Pet;
 import aev.springframework.aevpetclinic.model.PetType;
 import aev.springframework.aevpetclinic.model.Specialty;
 import aev.springframework.aevpetclinic.model.Vet;
+import aev.springframework.aevpetclinic.model.Visit;
 import aev.springframework.aevpetclinic.services.OwnerService;
 import aev.springframework.aevpetclinic.services.PetTypeService;
 import aev.springframework.aevpetclinic.services.SpecialtyService;
 import aev.springframework.aevpetclinic.services.VetService;
+import aev.springframework.aevpetclinic.services.VisitService;
 
 @Component
 public class DataLoader implements CommandLineRunner {
@@ -22,13 +24,15 @@ public class DataLoader implements CommandLineRunner {
 	private final VetService vetService;
 	private final PetTypeService petTypeService;
 	private final SpecialtyService specialtyService;
+	private final VisitService visitService;
 
 	public DataLoader(OwnerService ownerService, VetService vetService, PetTypeService petTypeService,
-			SpecialtyService specialtiesService) {
+			SpecialtyService specialtiesService, VisitService visitService) {
 		this.ownerService = ownerService;
 		this.vetService = vetService;
 		this.petTypeService = petTypeService;
 		this.specialtyService = specialtiesService;
+		this.visitService = visitService;
 	}
 
 	@Override
@@ -97,12 +101,12 @@ public class DataLoader implements CommandLineRunner {
 
 		ownerService.save(owner2);
 
-//        Visit catVisit = new Visit();
-//        catVisit.setPet(fionasCat);
-//        catVisit.setDate(LocalDate.now());
-//        catVisit.setDescription("Sneezy Kitty");
-//
-//        visitService.save(catVisit);
+        Visit catVisit = new Visit();
+        catVisit.setPet(fionasCat);
+        catVisit.setDate(LocalDate.now());
+        catVisit.setDescription("Sneezy Kitty");
+
+        visitService.save(catVisit);
 
 		System.out.println("Loaded Owners....");
 
