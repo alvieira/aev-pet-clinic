@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: aloisio
+Build-Jdk: 11.0.4
+Implementation-Title: pet-clinic-web
+Implementation-Version: 0.0.3-SNAPSHOT
+Implementation-Vendor-Id: aev.springframework
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-boot
+ -starter-parent/aev-pet-clinic/pet-clinic-web
+Created-By: Maven Integration for Eclipse
+
