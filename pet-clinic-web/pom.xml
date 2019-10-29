@@ -58,9 +58,9 @@
 			<scope>test</scope>
 			<exclusions>
 				<exclusion>
+					<groupId>junit</groupId>
+					<artifactId>junit</artifactId>
 				</exclusion>
-				<groupId>junit</groupId>
-				<artifact>junit</artifact>
 			</exclusions>
 		</dependency>
 		<dependency>
@@ -73,7 +73,6 @@
 			<artifactId>junit-jupiter-engine</artifactId>
 			<scope>test</scope>
 		</dependency>
-
 
 		<!-- webjars -->
 		<dependency>
@@ -134,13 +133,13 @@
 				</dependencies>
 			</plugin>
 			<plugin>
-				<artifactId>maven-surefire-plugin</artifactId>				
+				<artifactId>maven-surefire-plugin</artifactId>
 				<dependencies>
 					<dependency>
 						<groupId>org.junit.platform</groupId>
 						<artifactId>junit-platform-surefire-provider</artifactId>
-						<version>${junit-platform.version}</version>
-						<scope>test</scope>
+						<version>1.3.2</version>
+						<scope>compile</scope>
 					</dependency>
 				</dependencies>
 			</plugin>
